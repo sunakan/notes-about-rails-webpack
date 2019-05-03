@@ -1,0 +1,14 @@
+== webpack入れるまで
+
+
+* webpack関連モジュールをインストール
++
+----
+$ npm i -D webpack webpack-cli
+----
+
+* トランスパイルするbabel関連をインストール
++
+----
+$ npm i -D @babel/core @babel/polyfill @babel/preset-env babel-loader
+----
